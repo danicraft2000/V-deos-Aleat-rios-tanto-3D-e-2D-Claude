@@ -1,0 +1,18 @@
+{
+  "voz": "pm_alex",
+  "velocidade": 1.12,
+  "_obs": "Algumas palavras estão escritas do jeito que se falam para a voz sintética pronunciar certo (Blênder, straique, réiter, Cedóqui, Flipa Clipe).",
+  "falas": [
+    {"id": "n01_gancho",   "texto": "Procurei essa vinheta por anos... e achei dentro da Vanguarda!"},
+    {"id": "n02_2023",     "texto": "Trinta de janeiro de dois mil e vinte e três. Primeiro vídeo do canal."},
+    {"id": "n03_20anos",   "texto": "Fui na festa dos vinte anos da Vanguarda, em Taubaté... e pedi uma vinheta."},
+    {"id": "n04_busca",    "texto": "Três de setembro. Visitei a Vanguarda em São José pela primeira vez. Ninguém achava... até que, no setor de programação..."},
+    {"id": "n05_acharam",  "texto": "Acharam!"},
+    {"id": "n06_raridades","texto": "Antes, eu recriava as vinhetas de memória, no Flipa Clipe. Depois vieram as originais... e as raridades!"},
+    {"id": "n07_dvd",      "texto": "Consegui o DVD raríssimo com as vinhetas de dois mil e quatro, e recriei tudo no Blênder, pro especial de dois anos."},
+    {"id": "n08_strike",   "texto": "Aí um réiter me deu straique, achando que o vídeo era dele."},
+    {"id": "n09_memoria",  "texto": "Quando a Vanguarda lançou o Memória Vanguarda, disseram: eles não têm o Cedóqui! Bloqueei... e continuei resgatando tudo."},
+    {"id": "n10_revela",   "texto": "Rede Vanguarda Arquivos. Quatro anos. Mais de mil e cinquenta inscritos!"},
+    {"id": "n11_final",    "texto": "Obrigado! Qual vinheta você quer rever? Comenta aí!"}
+  ]
+}

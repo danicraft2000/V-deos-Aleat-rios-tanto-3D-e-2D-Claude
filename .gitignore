@@ -1,1 +1,4 @@
 material/
+build/
+node_modules/
+*.onnx

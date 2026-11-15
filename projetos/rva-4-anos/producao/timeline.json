@@ -1,0 +1,62 @@
+{
+  "_obs": "Linha do tempo única do Shorts (segundos). Usada pelo render (vídeo) e pelo audio_mix.py (som).",
+  "fps": 30,
+  "largura": 1080,
+  "altura": 1920,
+  "duracao": 63.0,
+  "bpm": 124,
+  "cenas": [
+    {"id": "gancho",    "ini": 0.0,  "fim": 3.8},
+    {"id": "c2023",     "ini": 3.8,  "fim": 8.5},
+    {"id": "vinte",     "ini": 8.5,  "fim": 13.0},
+    {"id": "busca",     "ini": 13.0, "fim": 20.0},
+    {"id": "acharam",   "ini": 20.0, "fim": 27.6},
+    {"id": "raridades", "ini": 27.6, "fim": 34.0},
+    {"id": "dvd",       "ini": 34.0, "fim": 41.0},
+    {"id": "strike",    "ini": 41.0, "fim": 44.2},
+    {"id": "memoria",   "ini": 44.2, "fim": 51.0},
+    {"id": "revela",    "ini": 51.0, "fim": 58.6},
+    {"id": "final",     "ini": 58.6, "fim": 63.0}
+  ],
+  "transicoes_arcos": [8.5, 27.6],
+  "narracao": [
+    {"id": "n01_gancho",    "t": 0.2},
+    {"id": "n02_2023",      "t": 4.2},
+    {"id": "n03_20anos",    "t": 8.8},
+    {"id": "n04_busca",     "t": 13.3},
+    {"id": "n05_acharam",   "t": 20.05},
+    {"id": "n06_raridades", "t": 27.9},
+    {"id": "n07_dvd",       "t": 34.3},
+    {"id": "n08_strike",    "t": 41.15},
+    {"id": "n09_memoria",   "t": 44.5},
+    {"id": "n10_revela",    "t": 54.4},
+    {"id": "n11_final",     "t": 58.9}
+  ],
+  "audio_original": {"arquivo": "agenda_original.wav", "t": 20.75, "ini": 0.0, "dur": 6.85, "volume": 1.0},
+  "musica": [
+    {"secao": "gancho",   "ini": 0.0,  "fim": 3.8,  "tipo": "groove", "intensidade": 0.9},
+    {"secao": "historia", "ini": 3.8,  "fim": 13.0, "tipo": "groove", "intensidade": 0.7},
+    {"secao": "suspense", "ini": 13.0, "fim": 20.0, "tipo": "suspense"},
+    {"secao": "vinheta",  "ini": 20.0, "fim": 27.6, "tipo": "silencio"},
+    {"secao": "raridade", "ini": 27.6, "fim": 41.0, "tipo": "groove", "intensidade": 0.8},
+    {"secao": "strike",   "ini": 41.0, "fim": 44.2, "tipo": "drone"},
+    {"secao": "memoria",  "ini": 44.2, "fim": 51.0, "tipo": "groove", "intensidade": 0.8},
+    {"secao": "subida",   "ini": 51.0, "fim": 54.2, "tipo": "subida"},
+    {"secao": "festa",    "ini": 54.2, "fim": 62.4, "tipo": "groove", "intensidade": 1.0, "lead": true},
+    {"secao": "fim",      "ini": 62.4, "fim": 63.0, "tipo": "final"}
+  ],
+  "sfx": [
+    ["estatica", 0.0], ["whoosh", 2.6], ["impacto", 3.0], ["brilho", 3.05],
+    ["glitch", 3.75], ["tv_liga", 3.9], ["whoosh", 6.45], ["impacto", 7.05], ["tique_faixas", 7.17], ["clique", 7.37], ["clique", 7.45],
+    ["whoosh_arcos", 8.15], ["foto", 9.0], ["foto", 10.4], ["pop", 11.8],
+    ["carimbo", 13.35], ["whoosh", 14.7], ["erro_bip", 16.9], ["erro_bip", 17.5], ["subida_curta", 19.2],
+    ["impacto", 20.0], ["brilho", 20.05], ["whoosh", 20.15],
+    ["whoosh_arcos", 27.25], ["whoosh", 27.85], ["whoosh", 28.05], ["virar", 30.85], ["whoosh", 32.15], ["whoosh", 32.75], ["whoosh", 33.35],
+    ["brilho", 34.4], ["whoosh", 37.55], ["pop", 39.15],
+    ["erro_buzz", 41.0], ["carimbo", 41.35],
+    ["whoosh", 44.25], ["pop", 46.5], ["carimbo", 48.36], ["whoosh", 49.0], ["whoosh", 49.8],
+    ["subida", 51.0], ["impacto", 52.6], ["clack", 52.95], ["clack", 53.2], ["clack", 53.45], ["clack", 53.7], ["clack", 53.95],
+    ["impacto_grande", 54.2], ["brilho", 54.25], ["contador", 56.5], ["ding", 58.2],
+    ["pop", 59.0], ["whoosh", 62.35], ["impacto", 62.95]
+  ]
+}
