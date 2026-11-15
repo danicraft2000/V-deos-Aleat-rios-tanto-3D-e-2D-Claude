@@ -289,8 +289,14 @@ async function busca(ctx, t, E) {
   ] });
   F.osd(ctx, '2023', 1010, 200, { size: 64, align: 'right', color: '#bfe8ff' });
   F.tracking(ctx, t, 0.35);
-  const wf = prog(t, 19.55, 20.0);
-  if (wf > 0) { ctx.fillStyle = `rgba(255,255,255,${wf * wf})`; ctx.fillRect(0, 0, W, H); }
+  const wf = prog(t, 19.45, 20.0);
+  if (wf > 0) {
+    const g = ctx.createRadialGradient(W / 2, H / 2, 0, W / 2, H / 2, H * 0.6);
+    g.addColorStop(0, `rgba(255,255,255,${Math.min(1, wf * 1.8)})`);
+    g.addColorStop(1, `rgba(255,255,255,${wf * wf})`);
+    ctx.fillStyle = g;
+    ctx.fillRect(0, 0, W, H);
+  }
 }
 
 // ================================================================== CENA 5 — ACHARAM! (20.0 – 27.6)
@@ -348,7 +354,7 @@ async function raridades(ctx, t, E) {
     }
     ctx.restore();
   }
-  F.title(ctx, t, { at: 27.9, out: 30.8, y: 235, lines: [{ t: 'EU RECRIAVA', size: 72 }, { t: 'DE MEMÓRIA', size: 72, fill: AMARELO }] });
+  F.title(ctx, t, { at: 27.9, out: 30.7, y: 235, lines: [{ t: 'EU RECRIAVA', size: 72 }, { t: 'DE MEMÓRIA', size: 72, fill: AMARELO }] });
   F.title(ctx, t, { at: 30.94, out: 32.1, y: 235, lines: [{ t: 'DEPOIS VIERAM', size: 72 }, { t: 'AS ORIGINAIS!', size: 72, fill: '#3CD62E' }] });
   // cartões das raridades
   if (t > 32.15) {

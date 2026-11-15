@@ -78,17 +78,17 @@ export function text3D(ctx, str, x, y, o = {}) {
  */
 export function title(ctx, t, spec) {
   const { at, out = Infinity, x = W / 2, y, lines, gap = 1.08, anim = 'pop', rot = 0 } = spec;
-  if (t < at || t > out + 0.25) return;
+  if (t < at || t > out + 0.2) return;
   let yy = y;
   lines.forEach((ln, i) => {
     const size = ln.size ?? 96;
     const st = at + i * (spec.stagger ?? 0.09);
     const pin = clamp((t - st) / 0.32);
-    const pout = clamp((t - out) / 0.22);
+    const pout = clamp((t - out) / 0.18);
     if (pin <= 0) { yy += size * gap; return; }
     let sc = anim === 'pop' ? lerp(0.3, 1, easeOutBack(pin, 2.4)) : 1;
     let dx = anim === 'slide' ? (1 - easeOutCubic(pin)) * (i % 2 ? -700 : 700) : 0;
-    sc *= 1 + easeInCubic(pout) * 0.4;
+    sc *= 1 + easeInCubic(pout) * 0.12;
     const alpha = Math.min(1, pin * 3) * (1 - pout);
     ctx.save();
     ctx.globalAlpha = alpha;
