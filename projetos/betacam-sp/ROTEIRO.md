@@ -55,6 +55,38 @@
 
 Fontes consultadas: [Betacam – Wikipedia](https://en.wikipedia.org/wiki/Betacam) · [The Great Bear: Betacam](https://thegreatbear.co.uk/wiki/Betacam) · [Mediacollege: Betacam SP](https://mediacollege.com/video/format/beta/betacam-sp.html) · [Datarecovery.com: History of Sony Betacam SP](https://datarecovery.com/rd/history-sony-betacam-sp/) · [Sony Pro: Betacam SP](https://pro.sony/ue_US/products/tape-media/betacam-sp) · [Radiomuseum: PVW-2800P](https://radiomuseum.org/r/sony_videocassette_recorder_pvw_2800p.html) · [Sony HK: aviso de fim de vendas de VTRs](https://www.sony.com.hk/en/electronics/support/business-professional/articles/00205336) · [Southern Advantage: PVW-2800 (preço de usado)](https://www.southernadvantage.com/products/sony-pvw-2800-betacam-sp-studio-player-recorder-with-rs-422a)
 
+## Descrição pronta para o YouTube
+
+```
+BETACAM SP EM 3D: a fita que gravou a história da TV
+
+Conheça por fora e por dentro a fita Betacam SP (tamanhos S e L) e o videocassete profissional Sony PVW-2800: origem, lançamento, conexões, como gravar, frame a frame, manutenção, o mecanismo por dentro e o fim da fabricação. Tudo recriado em 3D.
+
+Capítulos
+0:00 Introdução
+0:22 Origem e História
+0:53 Preço e Lançamento
+1:18 Fita Tamanho S
+1:41 Fita Tamanho L
+2:01 Vídeo Cassete Betacam SP Profissional
+2:24 Como Ligar/Conectar Áudio e Vídeo
+2:50 Inserindo sua Fita S e L
+3:13 Duração Máxima da Fita S e L
+3:35 Como Gravar sua Fita L ou S
+3:56 Frame por Frame no Vídeo Cassete
+4:17 Manutenção do Vídeo Cassete
+4:41 Como Funciona o Mecanismo por Dentro
+5:14 Ejetando a Fita
+5:33 Betacam SP nas Emissoras
+5:52 Como Desligar e Desconectar com Cuidado
+6:16 Fim da Fabricação do Betacam SP
+6:42 Encerramento
+
+Você já viu uma fita dessas de perto? Conta aqui nos comentários!
+
+#BetacamSP #Betacam #Sony #VideoCassete #Televisão #Retro #3D
+```
+
 ## Onde mexer
 
 Veja `producao/README.md`.
