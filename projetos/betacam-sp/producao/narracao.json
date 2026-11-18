@@ -1,0 +1,161 @@
+{
+  "voz": "pm_alex",
+  "velocidade": 1.04,
+  "_obs": "Cada seção tem frases curtas: cada frase vira um arquivo de voz e marca o tempo das animações. Algumas palavras estão escritas do jeito que se falam, para a voz sintética pronunciar certo (Bétacam ésse pê, Sôni, páuer, djóg xâtou, bê ene cê, xis éle érre).",
+  "secoes": [
+    {
+      "id": "s01_introducao", "numero": 1, "titulo": "Introdução",
+      "falas": [
+        "Antes do digital, quase tudo o que passava na televisão estava gravado numa fita.",
+        "E, nas emissoras, uma fita reinou por quase vinte anos: a Bétacam ésse pê.",
+        "Hoje, em 3D, você vai conhecer essa fita e o videocassete dela, por fora e por dentro."
+      ]
+    },
+    {
+      "id": "s02_origem", "numero": 2, "titulo": "Origem e História",
+      "falas": [
+        "Tudo começou com o Bétamax, o vídeo doméstico da Sôni, lançado em mil novecentos e setenta e cinco.",
+        "Em mil novecentos e oitenta e dois, a Sôni usou o mesmo cassete para criar o Bétacam, um formato profissional.",
+        "Ele gravava a imagem em componentes: o brilho numa trilha, e as cores em outra.",
+        "Em mil novecentos e oitenta e seis chegou a versão ésse pê, de Supírior Perfórmans, com fita de partículas metálicas e imagem mais nítida."
+      ]
+    },
+    {
+      "id": "s03_preco", "numero": 3, "titulo": "Preço e Lançamento",
+      "falas": [
+        "O Bétacam ésse pê foi lançado no Japão em mil novecentos e oitenta e seis, e chegou ao resto do mundo em oitenta e sete.",
+        "Não era aparelho de loja: era equipamento de emissora, vendido para televisões e produtoras, com preço de profissional.",
+        "Hoje, um videocassete como este aparece usado por algo entre duzentos e dois mil e trezentos dólares."
+      ]
+    },
+    {
+      "id": "s04_fita_s", "numero": 4, "titulo": "Fita Tamanho S",
+      "falas": [
+        "Esta é a fita pequena, o tamanho ésse.",
+        "Ela tem o mesmo tamanho de um cassete Bétamax: cerca de quinze centímetros e meio de largura.",
+        "Tem uma janela para ver o carretel, e uma tampa que protege a fita contra poeira e eletricidade estática.",
+        "Leve e rápida de trocar, era a fita das câmeras de reportagem."
+      ]
+    },
+    {
+      "id": "s05_fita_l", "numero": 5, "titulo": "Fita Tamanho L",
+      "falas": [
+        "E esta é a fita grande, o tamanho éle.",
+        "São cerca de vinte e cinco centímetros de largura, com duas janelas e os dois carretéis à mostra.",
+        "Cabe muito mais fita aqui dentro. Por isso, ela era a preferida das ilhas de edição e da exibição dos programas."
+      ]
+    },
+    {
+      "id": "s06_videocassete", "numero": 6, "titulo": "Vídeo Cassete Betacam SP Profissional",
+      "falas": [
+        "Este é um videocassete Bétacam ésse pê profissional, da linha pê vê dáblio da Sôni.",
+        "Em cima ficam os medidores de áudio, a entrada da fita e as chaves de entrada de vídeo.",
+        "Embaixo fica o painel de edição: os botões de comando, o contador de tempo e o disco de busca, o djóg xâtou."
+      ]
+    },
+    {
+      "id": "s07_conexoes", "numero": 7, "titulo": "Como Ligar e Conectar Áudio e Vídeo",
+      "falas": [
+        "As conexões ficam na parte de trás.",
+        "O vídeo usa conectores bê ene cê: o sinal entra pelo vídeo in, e sai pelo vídeo áut, rumo ao monitor.",
+        "O áudio usa conectores xis éle érre, de três pinos, nos canais um e dois, com entradas e saídas separadas.",
+        "Ligue primeiro todos os cabos, e só no final o cabo de energia na tomada."
+      ]
+    },
+    {
+      "id": "s08_inserindo", "numero": 8, "titulo": "Inserindo sua Fita S e L",
+      "falas": [
+        "Aperte o botão páuer e espere o painel acender.",
+        "Segure a fita com a etiqueta para cima, e a tampa virada para dentro do aparelho.",
+        "Empurre com calma até o mecanismo puxar a fita sozinho.",
+        "A mesma entrada aceita as duas: a fita ésse e a fita éle."
+      ]
+    },
+    {
+      "id": "s09_duracao", "numero": 9, "titulo": "Duração Máxima da Fita S e L",
+      "falas": [
+        "Quanto cabe em cada uma?",
+        "A fita ésse grava no máximo trinta minutos.",
+        "A fita éle chega a noventa minutos.",
+        "Isso no padrão de quinhentas e vinte e cinco linhas, usado no Brasil e nos Estados Unidos. No padrão europeu, a fita éle passa de cem minutos."
+      ]
+    },
+    {
+      "id": "s10_gravar", "numero": 10, "titulo": "Como Gravar sua Fita L ou S",
+      "falas": [
+        "Para gravar, escolha primeiro a entrada de vídeo na chave de seleção.",
+        "Depois ajuste o volume dos canais, olhando os ponteiros dos medidores.",
+        "Agora aperte réc junto com plêi.",
+        "A luz vermelha acende, e o contador começa a correr. Está gravando."
+      ]
+    },
+    {
+      "id": "s11_frames", "numero": 11, "titulo": "Frame por Frame no Vídeo Cassete",
+      "falas": [
+        "No modo djóg, girando o disco bem devagar, a imagem anda um quadro de cada vez, para frente ou para trás.",
+        "São quase trinta quadros por segundo, e o contador mostra horas, minutos, segundos e quadros.",
+        "Era assim que o editor encontrava o ponto exato de cada corte."
+      ]
+    },
+    {
+      "id": "s12_manutencao", "numero": 12, "titulo": "Manutenção do Vídeo Cassete",
+      "falas": [
+        "Cabeça suja vira chuvisco e falha na imagem.",
+        "A limpeza é feita com hastes de camurça e álcool isopropílico, nas cabeças, nas guias e no rolo de pressão.",
+        "O aparelho conta as horas de uso do tambor, e isso indica a hora da revisão.",
+        "E as fitas devem ser guardadas em pé, rebobinadas, longe do calor e da umidade."
+      ]
+    },
+    {
+      "id": "s13_mecanismo", "numero": 13, "titulo": "Como Funciona o Mecanismo por Dentro",
+      "falas": [
+        "Lá dentro, a tampa da fita se abre, e guias puxam a fita para fora do cassete.",
+        "Ela é enrolada em volta do tambor, que gira cerca de trinta vezes por segundo.",
+        "As cabeças gravam trilhas inclinadas: uma com o brilho da imagem, e outra com as cores.",
+        "Nas bordas da fita ficam as trilhas de áudio, de controle, e do código de tempo.",
+        "E o cabrestante, com o rolo de pressão, puxa a fita sempre na mesma velocidade."
+      ]
+    },
+    {
+      "id": "s14_ejetando", "numero": 14, "titulo": "Ejetando a Fita",
+      "falas": [
+        "Para tirar a fita, aperte istópi, e depois o botão azul de ejetar.",
+        "O mecanismo recolhe a fita para dentro do cassete, fecha a tampa e empurra a fita para fora.",
+        "Nunca puxe a fita enquanto o aparelho está trabalhando."
+      ]
+    },
+    {
+      "id": "s15_emissoras", "numero": 15, "titulo": "Betacam SP nas Emissoras",
+      "falas": [
+        "Nas emissoras, o Bétacam ésse pê estava em toda parte.",
+        "Nas câmeras de reportagem, nas ilhas de edição, na exibição dos comerciais e vinhetas, e no arquivo.",
+        "Por quase vinte anos ele foi o padrão do telejornalismo, inclusive aqui no Brasil."
+      ]
+    },
+    {
+      "id": "s16_desligar", "numero": 16, "titulo": "Como Desligar e Desconectar com Cuidado",
+      "falas": [
+        "Ao terminar, ejete a fita e só depois desligue o botão páuer.",
+        "Espere alguns segundos e tire o cabo de energia da tomada.",
+        "Para soltar os cabos, puxe sempre pelo conector, nunca pelo fio.",
+        "O bê ene cê gira um quarto de volta para soltar, e o xis éle érre tem uma trava que precisa ser apertada."
+      ]
+    },
+    {
+      "id": "s17_fim", "numero": 17, "titulo": "Fim da Fabricação do Betacam SP",
+      "falas": [
+        "Com a chegada do vídeo digital, a Sôni encerrou a fabricação do Bétacam ésse pê em dois mil e um.",
+        "A partir daí, o foco passou para o Bétacam Digital e o Bétacam ésse xis, e os últimos aparelhos foram vendidos até o estoque acabar.",
+        "Em dois mil e dezesseis, a Sôni parou de vender todos os seus gravadores de fita de meia polegada."
+      ]
+    },
+    {
+      "id": "s18_encerramento", "numero": 18, "titulo": "Encerramento",
+      "falas": [
+        "O Bétacam ésse pê saiu de linha, mas as fitas continuam guardando décadas da história da televisão.",
+        "Se você gostou, deixe o seu like, se inscreva, e conte aqui nos comentários: você já viu uma fita dessas de perto?",
+        "Obrigado por assistir, e até o próximo vídeo!"
+      ]
+    }
+  ]
+}
