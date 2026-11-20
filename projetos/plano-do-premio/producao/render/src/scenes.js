@@ -830,7 +830,7 @@ async function caixa(ctx, t, E) {
       }
     });
   });
-  F.pill(ctx, 'RESERVA = SÓ PRA EMERGÊNCIA', W / 2 + 120, 205, { size: 32, bg: COR.ouro, color: '#1a1200', alpha: vis(t, te + 0.8), scale: lerp(0.5, 1, easeOutBack(ap(t, te + 0.8), 2.5)) });
+  F.pill(ctx, 'RESERVA = SÓ PRA EMERGÊNCIA', 1270, 885, { size: 32, bg: COR.ouro, color: '#1a1200', alpha: vis(t, te + 0.8), scale: lerp(0.5, 1, easeOutBack(ap(t, te + 0.8), 2.5)) });
   ctx.save();
   ctx.globalAlpha = vis(t, td + 0.5) * 0.85;
   txt(ctx, 'Estimativa: Selic mantida por 12 meses e IR de 17,5%', 75, 842, 19, { weight: 600, color: COR.suave });
