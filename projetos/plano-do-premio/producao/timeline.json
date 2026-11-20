@@ -1,0 +1,394 @@
+{
+ "_obs": "Gerado por montar_timeline.py (não editar à mão). Segundos.",
+ "fps": 30,
+ "largura": 1920,
+ "altura": 1080,
+ "duracao": 266.53,
+ "bpm": 92,
+ "cenas": [
+  {
+   "id": "abertura",
+   "ini": 0.0,
+   "fim": 11.973
+  },
+  {
+   "id": "premio",
+   "ini": 11.973,
+   "fim": 27.224
+  },
+  {
+   "id": "avisos",
+   "ini": 27.224,
+   "fim": 53.878
+  },
+  {
+   "id": "lista",
+   "ini": 53.878,
+   "fim": 75.658
+  },
+  {
+   "id": "pai",
+   "ini": 75.658,
+   "fim": 97.285
+  },
+  {
+   "id": "dicas",
+   "ini": 97.285,
+   "fim": 112.085
+  },
+  {
+   "id": "vale",
+   "ini": 112.085,
+   "fim": 125.054
+  },
+  {
+   "id": "regra",
+   "ini": 125.054,
+   "fim": 144.035
+  },
+  {
+   "id": "caixa",
+   "ini": 144.035,
+   "fim": 171.914
+  },
+  {
+   "id": "trilhas",
+   "ini": 171.914,
+   "fim": 203.752
+  },
+  {
+   "id": "flipaclip",
+   "ini": 203.752,
+   "fim": 211.885
+  },
+  {
+   "id": "tablet",
+   "ini": 211.885,
+   "fim": 237.684
+  },
+  {
+   "id": "cenarios",
+   "ini": 237.684,
+   "fim": 252.019
+  },
+  {
+   "id": "final",
+   "ini": 252.019,
+   "fim": 266.53
+  }
+ ],
+ "falas": [
+  {
+   "id": "n01a",
+   "t": 2.2,
+   "dur": 2.163,
+   "legenda": "E aí, Daniel! Esse vídeo é só pra você."
+  },
+  {
+   "id": "n01b",
+   "t": 4.713,
+   "dur": 7.11,
+   "legenda": "Você chegou na grande final do Empreenda com o RVA. Bora planejar esse prêmio com a cabeça fria… e o coração quente."
+  },
+  {
+   "id": "n02a",
+   "t": 12.523,
+   "dur": 3.727,
+   "legenda": "1º lugar: R$ 35 mil."
+  },
+  {
+   "id": "n02b",
+   "t": 16.5,
+   "dur": 3.552,
+   "legenda": "Voto popular: mais R$ 20 mil. Total: R$ 55 mil."
+  },
+  {
+   "id": "n02c",
+   "t": 20.302,
+   "dur": 3.363,
+   "legenda": "Dividido por 4: você, o Gabriel, o Vitor e o Cleber."
+  },
+  {
+   "id": "n02d",
+   "t": 23.865,
+   "dur": 3.209,
+   "legenda": "R$ 13.750 pra cada um."
+  },
+  {
+   "id": "n03a",
+   "t": 27.774,
+   "dur": 1.959,
+   "legenda": "Antes de gastar, três avisos."
+  },
+  {
+   "id": "n03b",
+   "t": 30.033,
+   "dur": 6.774,
+   "legenda": "1) A final é 26/11 e o Pix só cai em janeiro. Nada de parcelar compra contando com o prêmio."
+  },
+  {
+   "id": "n03c",
+   "t": 37.157,
+   "dur": 10.489,
+   "legenda": "2) Confira se o valor é bruto ou líquido. Prêmio pode ter IR retido na fonte — no pior caso 30%, e cairiam uns R$ 9.600."
+  },
+  {
+   "id": "n03d",
+   "t": 47.996,
+   "dur": 5.732,
+   "legenda": "3) Pix entre pessoas não tem taxa. Receber em janeiro só muda o ano em que você declara."
+  },
+  {
+   "id": "n04a",
+   "t": 54.428,
+   "dur": 1.32,
+   "legenda": "Agora, a sua lista."
+  },
+  {
+   "id": "n04b",
+   "t": 55.948,
+   "dur": 6.095,
+   "legenda": "Os 5 PlayStation pro seu pai, usados e em bom estado: ~R$ 6.800, já com frete e cabos."
+  },
+  {
+   "id": "n04c",
+   "t": 62.243,
+   "dur": 3.537,
+   "legenda": "Galaxy Tab S11 Ultra em promoção: ~R$ 7.000."
+  },
+  {
+   "id": "n04d",
+   "t": 65.98,
+   "dur": 4.09,
+   "legenda": "Freelancer das trilhas: até R$ 1.000. FlipaClip: R$ 99 por ano."
+  },
+  {
+   "id": "n04e",
+   "t": 70.27,
+   "dur": 4.538,
+   "legenda": "Somando tudo: quase R$ 15 mil. Passa do prêmio… e você ficaria sem reserva nenhuma."
+  },
+  {
+   "id": "n05a",
+   "t": 76.208,
+   "dur": 3.449,
+   "legenda": "Vamos começar pelo mais importante: o presente do seu pai."
+  },
+  {
+   "id": "n05b",
+   "t": 79.957,
+   "dur": 3.002,
+   "legenda": "PlayStation 1, de 1994."
+  },
+  {
+   "id": "n05c",
+   "t": 83.109,
+   "dur": 1.961,
+   "legenda": "PlayStation 2, de 2000."
+  },
+  {
+   "id": "n05d",
+   "t": 85.22,
+   "dur": 2.256,
+   "legenda": "PlayStation 3, de 2006."
+  },
+  {
+   "id": "n05e",
+   "t": 87.626,
+   "dur": 2.405,
+   "legenda": "PlayStation 4, de 2013."
+  },
+  {
+   "id": "n05f",
+   "t": 90.181,
+   "dur": 2.575,
+   "legenda": "E o PlayStation 5, de 2020."
+  },
+  {
+   "id": "n05g",
+   "t": 93.056,
+   "dur": 4.079,
+   "legenda": "A coleção completa. Todos os consoles que ele sempre quis, e não pôde ter."
+  },
+  {
+   "id": "n06a",
+   "t": 97.835,
+   "dur": 1.629,
+   "legenda": "Dicas pra comprar usado:"
+  },
+  {
+   "id": "n06b",
+   "t": 99.664,
+   "dur": 2.525,
+   "legenda": "teste o console ligado, com controle e cabo."
+  },
+  {
+   "id": "n06c",
+   "t": 102.389,
+   "dur": 3.45,
+   "legenda": "No PlayStation 3, cuidado com a luz amarela piscando."
+  },
+  {
+   "id": "n06d",
+   "t": 106.039,
+   "dur": 2.746,
+   "legenda": "Prefira o Mercado Livre, que protege a sua compra."
+  },
+  {
+   "id": "n06e",
+   "t": 108.985,
+   "dur": 2.85,
+   "legenda": "E nunca mande Pix adiantado pra desconhecido."
+  },
+  {
+   "id": "n07a",
+   "t": 112.635,
+   "dur": 1.724,
+   "legenda": "E vale a pena? Vale, Daniel."
+  },
+  {
+   "id": "n07b",
+   "t": 114.709,
+   "dur": 5.057,
+   "legenda": "Dinheiro a gente recupera. Tempo com o pai, não. Esse presente é gratidão, é memória, é carinho."
+  },
+  {
+   "id": "n07c",
+   "t": 120.116,
+   "dur": 4.388,
+   "legenda": "Só uma dica: o melhor presente não é a caixa… é vocês dois jogando juntos."
+  },
+  {
+   "id": "n08a",
+   "t": 125.604,
+   "dur": 3.748,
+   "legenda": "Pra tudo caber com segurança, use a regra 20 · 50 · 30."
+  },
+  {
+   "id": "n08b",
+   "t": 129.652,
+   "dur": 4.857,
+   "legenda": "20% = R$ 2.750 pra reserva, rendendo na Caixa."
+  },
+  {
+   "id": "n08c",
+   "t": 134.759,
+   "dur": 4.836,
+   "legenda": "50% = R$ 6.875 pro presente do seu pai."
+  },
+  {
+   "id": "n08d",
+   "t": 139.845,
+   "dur": 3.94,
+   "legenda": "30% = R$ 4.125 pros seus projetos."
+  },
+  {
+   "id": "n09a",
+   "t": 144.585,
+   "dur": 2.12,
+   "legenda": "E onde deixar a reserva na Caixa?"
+  },
+  {
+   "id": "n09b",
+   "t": 146.955,
+   "dur": 4.346,
+   "legenda": "A poupança rendeu ~8,3% nos últimos 12 meses."
+  },
+  {
+   "id": "n09c",
+   "t": 151.551,
+   "dur": 5.6,
+   "legenda": "Já um CDB com liquidez diária, ou o Tesouro Selic, rende perto de 100% do CDI."
+  },
+  {
+   "id": "n09d",
+   "t": 157.401,
+   "dur": 11.438,
+   "legenda": "Com a Selic em 13,75%, seus R$ 2.750 podem render ~R$ 310 em 1 ano, já sem o IR. Na poupança, ~R$ 228."
+  },
+  {
+   "id": "n09e",
+   "t": 169.089,
+   "dur": 2.575,
+   "legenda": "E essa reserva é sagrada: só pra emergência."
+  },
+  {
+   "id": "n10a",
+   "t": 172.464,
+   "dur": 5.203,
+   "legenda": "Agora, as trilhas da previsão do tempo da Vanguarda, de 2004 e 2013."
+  },
+  {
+   "id": "n10b",
+   "t": 177.917,
+   "dur": 7.4,
+   "legenda": "Tirar a voz do apresentador de uma gravação em fita quase nunca fica limpo. O certo é reconstruir a trilha no FL Studio."
+  },
+  {
+   "id": "n10c",
+   "t": 185.567,
+   "dur": 10.271,
+   "legenda": "No 99Freelas, quem contrata paga taxa da plataforma. Feche o projeto perto de R$ 650 pra dar ~R$ 750 no total. Teto: R$ 1.000."
+  },
+  {
+   "id": "n10d",
+   "t": 196.088,
+   "dur": 7.414,
+   "legenda": "Peça uma amostra antes, combine a entrega em WAV + projeto do FL Studio, e só libere o pagamento depois de aprovar."
+  },
+  {
+   "id": "n11a",
+   "t": 204.302,
+   "dur": 7.333,
+   "legenda": "FlipaClip: R$ 99 por ano = R$ 8,25 por mês, pela sua principal ferramenta de animação. Vale muito."
+  },
+  {
+   "id": "n12a",
+   "t": 212.435,
+   "dur": 6.692,
+   "legenda": "E o tablet? Nos 30%, sobram ~R$ 3.000 pra ele. O Tab S11 Ultra, em promoção, sai perto de R$ 7.000."
+  },
+  {
+   "id": "n12b",
+   "t": 219.377,
+   "dur": 5.825,
+   "legenda": "Dois caminhos. A: um Galaxy Tab mais em conta, com S Pen. O FlipaClip roda igualzinho."
+  },
+  {
+   "id": "n12c",
+   "t": 225.452,
+   "dur": 9.157,
+   "legenda": "B: o Ultra agora, e o presente do pai em 2 capítulos: PS1 ao PS4 agora, o PS5 num segundo momento especial. Cabe, mas apertado."
+  },
+  {
+   "id": "n12d",
+   "t": 234.859,
+   "dur": 2.575,
+   "legenda": "Nos dois caminhos, a reserva fica intacta."
+  },
+  {
+   "id": "n13a",
+   "t": 238.234,
+   "dur": 6.392,
+   "legenda": "E se o prêmio vier menor? Só o 1º lugar: R$ 8.750 pra cada. Só o voto popular: R$ 5.000."
+  },
+  {
+   "id": "n13b",
+   "t": 244.876,
+   "dur": 6.693,
+   "legenda": "A regra é a mesma: 20 · 50 · 30. Primeiro a reserva, depois os PlayStation clássicos, e o resto vem com o tempo."
+  },
+  {
+   "id": "n14a",
+   "t": 252.569,
+   "dur": 4.367,
+   "legenda": "Resumindo: reserva primeiro, presente com carinho, e seus projetos sem dívida."
+  },
+  {
+   "id": "n14b",
+   "t": 257.336,
+   "dur": 6.594,
+   "legenda": "Boa sorte na final, Daniel! Você, o Gabriel, o Vitor e o Cleber já chegaram longe. Agora é ganhar… e gastar com sabedoria."
+  }
+ ]
+}

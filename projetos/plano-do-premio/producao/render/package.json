@@ -1,0 +1,14 @@
+{
+  "name": "plano-do-premio-render",
+  "private": true,
+  "type": "module",
+  "description": "Motor de render do vídeo Plano do Prêmio (Three.js + Canvas, renderizado no Chromium e montado no FFmpeg)",
+  "scripts": {
+    "render": "node render.mjs"
+  },
+  "dependencies": {
+    "@fontsource/caveat": "5.1.0",
+    "@fontsource/montserrat": "5.1.0",
+    "three": "0.170.0"
+  }
+}
