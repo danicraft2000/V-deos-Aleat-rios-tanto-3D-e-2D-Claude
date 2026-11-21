@@ -5,6 +5,7 @@
 //   node render.mjs --stills 6.4,20.6   -> quadros soltos em build/stills/ para conferir
 //   node render.mjs --de 20 --ate 28    -> só um trecho
 //   node render.mjs --workers 4 --fps 30
+//   node render.mjs --thumb A,B         -> thumbnails do YouTube em build/thumbnail/ (PNG 1920x1080 + JPG 1280x720)
 import { createRequire } from 'node:module';
 import { spawn } from 'node:child_process';
 import fs from 'node:fs';
@@ -37,7 +38,19 @@ async function novaPagina() {
 }
 const toBuf = (dataUrl) => Buffer.from(dataUrl.slice(dataUrl.indexOf(',') + 1), 'base64');
 
-if (args.stills) {
+if (args.thumb) {
+  const { page } = await novaPagina();
+  const dir = path.join(BUILD, 'thumbnail');
+  fs.mkdirSync(dir, { recursive: true });
+  for (const op of String(args.thumb === true ? 'A' : args.thumb).split(',')) {
+    const png = path.join(dir, `RVA_4_Anos_Thumbnail_${op}_1920x1080.png`);
+    fs.writeFileSync(png, toBuf(await page.evaluate((o) => window.__thumb(o), op)));
+    const jpg = path.join(dir, `RVA_4_Anos_Thumbnail_${op}.jpg`);
+    await new Promise((r, j) => spawn('ffmpeg', ['-v', 'error', '-y', '-i', png, '-vf', 'scale=1280:720:flags=lanczos', '-q:v', '2', jpg], { stdio: 'inherit' })
+      .on('close', (c) => (c === 0 ? r() : j(new Error('ffmpeg falhou')))));
+    console.log('thumbnail', jpg, `${(fs.statSync(jpg).size / 1024).toFixed(0)} KB`);
+  }
+} else if (args.stills) {
   const { page, info } = await novaPagina();
   console.log('caracteres especiais:', info.caracteres);
   fs.mkdirSync(path.join(BUILD, 'stills'), { recursive: true });

@@ -60,19 +60,25 @@ function preencher(g, estilo, size, base) {
   return estilo === 'branco' ? '#ffffff' : estilo;
 }
 
-function glifo(ch, size, peso, estilo, depth, depthColor) {
-  const key = `${ch}|${size}|${peso}|${estilo}|${depth}|${depthColor}`;
+function glifo(ch, size, peso, estilo, depth, depthColor, contorno = 0, corContorno = '#05060c') {
+  const key = `${ch}|${size}|${peso}|${estilo}|${depth}|${depthColor}|${contorno}|${corContorno}`;
   let g = cacheGlifo.get(key);
   if (g) return g;
   _m.font = fonte(size, peso);
   const adv = _m.measureText(ch).width;
-  const pad = Math.ceil(size * 0.22 + depth * 1.2);
+  const pad = Math.ceil(size * 0.22 + depth * 1.2 + contorno);
   const w = Math.ceil(adv + pad * 2), h = Math.ceil(size * 1.35 + pad * 2);
   const base = pad + size * 1.02;
   const c = canvas(Math.max(2, w), Math.max(2, h)), x = c.getContext('2d');
   x.font = fonte(size, peso);
   x.textBaseline = 'alphabetic';
-  // profundidade (extrusão)
+  // contorno grosso (thumbnail) + profundidade (extrusão)
+  if (contorno > 0) {
+    x.lineJoin = 'round';
+    x.strokeStyle = corContorno;
+    x.lineWidth = contorno * 2;
+    for (let k = depth; k >= 0; k--) x.strokeText(ch, pad + k * 0.55, base + k);
+  }
   if (depth > 0) {
     x.fillStyle = depthColor;
     for (let k = depth; k >= 1; k--) x.fillText(ch, pad + k * 0.55, base + k);
@@ -134,7 +140,7 @@ export function texto(ctx, str, x, y, o = {}) {
     if (ch === ' ') continue;
     const p = o.anim ? clamp((lt - ordem(i, n) * st) / dur) : 1;
     if (p <= 0) continue;
-    const g = glifo(ch, size, peso, estilo, depth, depthColor);
+    const g = glifo(ch, size, peso, estilo, depth, depthColor, o.contorno ?? 0, o.corContorno);
     let sc = 1, dx = 0, dy = 0, rot = 0, a = 1;
     switch (o.anim) {
       case 'pop': sc = lerp(0.2, 1, easeOutBack(p, 2.6)); a = clamp(p * 3); break;

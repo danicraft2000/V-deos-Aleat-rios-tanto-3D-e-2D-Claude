@@ -20,6 +20,9 @@ cd render && npm install && node render.mjs && cd ..
 
 # 3) junta tudo
 ./finalizar.sh                       # -> build/RVA_4_Anos_Trailer_Oficial.mp4
+
+# 4) thumbnail do YouTube (opção A: disco do 4 + ???; opção B: caixas lacradas)
+cd render && node render.mjs --thumb A,B   # -> build/thumbnail/ (JPG 1280x720 e PNG 1920x1080)
 ```
 
 ## Onde mexer (o "painel de composições")
@@ -33,6 +36,7 @@ cd render && npm install && node render.mjs && cd ..
 | Efeitos (VHS, glitch, flash, bokeh, letterbox, desligar TV…) | `render/src/fx.js` |
 | Peças 3D (fitas, parede de TVs, caixas lacradas) | `render/src/tres.js` |
 | Trilha sintetizada, efeitos e mixagem | `audio_mix.py` |
+| Thumbnail do YouTube (opções A e B) | `render/src/thumb.js` |
 
 ## Caracteres especiais
 
