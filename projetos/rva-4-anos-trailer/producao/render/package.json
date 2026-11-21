@@ -1,0 +1,11 @@
+{
+  "name": "rva-4-anos-trailer-render",
+  "private": true,
+  "type": "module",
+  "description": "Motor de render do Trailer Oficial RVA 4 Anos (Three.js + Canvas no Chromium, montagem no FFmpeg)",
+  "scripts": { "render": "node render.mjs" },
+  "dependencies": {
+    "@fontsource/vt323": "5.1.0",
+    "three": "0.170.0"
+  }
+}
