@@ -1,0 +1,16 @@
+{
+  "name": "rva-4-anos-cronograma-render",
+  "private": true,
+  "type": "module",
+  "description": "Motor de render do vídeo 'Cronograma de Divulgação dos 4 Anos da RVA' (Canvas 2D + Three.js, quadro a quadro no Chromium, montado no FFmpeg)",
+  "scripts": {
+    "render": "node render.mjs"
+  },
+  "dependencies": {
+    "@fontsource/anton": "5.1.0",
+    "@fontsource/bungee": "5.1.0",
+    "@fontsource/montserrat": "5.1.0",
+    "@fontsource/vt323": "5.1.0",
+    "three": "0.170.0"
+  }
+}
